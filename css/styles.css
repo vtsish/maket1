@@ -1,6 +1,10 @@
 .body {
     margin: 0;
     font-family: Nunito Sans, Arial;
+    @font-face {
+        font-family: Nunito Sans;
+        src: url('./fonts/Nunito Sans-Regular.ttf');
+    }
 }
 
 .container {
