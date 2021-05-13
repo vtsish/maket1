@@ -1,10 +1,9 @@
 .body {
     margin: 0;
-    font-family: Nunito Sans, Arial;
-    @font-face {
-        font-family: Nunito Sans;
-        src: url('./fonts/Nunito Sans-Regular.ttf');
-    }
+}
+
+.body * {
+    box-sizing: border-box;
 }
 
 .container {
@@ -25,6 +24,7 @@
 
 .logo {
     color: #E3B873;
+    font-family: Nunito Sans, Public Sans, Arial;
 }
 
 .header {
@@ -50,4 +50,44 @@
 .header-navigation__item a {
     text-decoration: none;
     color: white;
+    font-family: Nunito Sans, Public Sans, Arial;
+    font-size: 13px;
+}
+
+.hero {
+    background-image: url('../images/hero.jpg');
+    background-color: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+}
+
+.header-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 7);
+}
+
+.hero-container {
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    margin: 0;
+    font-family: Yeseva One, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53.13px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.colortext {
+    color: #E3B873;
 }
