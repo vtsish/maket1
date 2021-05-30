@@ -245,41 +245,37 @@
     .container-completed-projects__img {
         margin-left: -100px;
     }
-    /* .projects-navigation__item {
-        margin-right: 60px;
-        white-space: nowrap;
-        font-family: Yeseva One;
-        color: white;
-        font-size: 14px;
+    
+    .completed-projects-block__left__carousel {
+        margin-top: 70px;
+        display: flex;
         align-items: center;
-        text-decoration: none;
     }
     
-    .projects-navigation__item__active {
-        color: #E3B873;
+    .completed-projects-block__left__carousel button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
     }
     
-    .projects-navigation__img {
-        width: 679px;
-        height: 482px;
+    .completed-projects-block__left__carousel__arrow {
+        width: 42px;
+        height: 14px;
+        margin-right: 21px;
     }
     
-    .container-control__container {
-        width: 853px;
-        text-align: center;
-        margin-bottom: 148px;
+    button.completed-projects-block__left__carousel {
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        margin: 9px;
+        background-color: rgba(255, 255, 255, 0.5);
     }
     
-    .subtitle-control__subtitle {
-        color: #fff;
-        margin-bottom: 15px;
+    button.completed-projects-block__left__carousel.active {
+        background-color: #fff;
     }
     
-    .container-image2.2 {
-        width: 817px;
-        height: 434px;
-        margin: 0 auto;
-        left: 0;
-        right: 0;
-        position: absolute;
-    } */
+    button.completed-projects-block__left__carousel:hover {
+        background-color: #fff;
+    }
