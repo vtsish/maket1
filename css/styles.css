@@ -218,26 +218,32 @@
     .completed-projects-block__right {
         display: flex;
         font-size: 14px;
-        line-height: 19px;
-        margin-bottom: 53px;
-        padding: px;
+        width: 344px;
+        margin-left: -140px;
     }
     
     .completed-projects-block__right__item {
-        margin-right: 60px;
+        margin-right: 15px;
         white-space: nowrap;
+        font-family: Nunito Sans;
     }
     
     .completed-projects-block__right__item a {
-        color: rgba(255, 255, 255, 0.3);
+        font-family: Nunito Sans;
+        font-style: normal;
+        color: rgba(255, 255, 255, 0.5);
         border-bottom: 1px solid transparent;
         transition: 0.2s ease;
+        text-decoration: none;
     }
     
-    .completed-projects-block__right__item.active a,
     .completed-projects-block__right__item:hover a {
         color: #e3b873;
         border-bottom-color: #e3b873;
+    }
+    
+    .container-completed-projects__img {
+        margin-left: -100px;
     }
     /* .projects-navigation__item {
         margin-right: 60px;
