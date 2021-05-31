@@ -208,12 +208,6 @@
                 font-size: 13px;
                 line-height: 21px;
             }
-            /* .completed-projects-block__right {
-        height: 83px;
-        position: relative;
-        justify-content: space-between;
-        display: flex;
-    } */
             
             .completed-projects-block__right {
                 display: flex;
@@ -280,28 +274,46 @@
                 background-color: #fff;
             }
             
-            .online__control {
-                margin-top: 0px;
-                display: flex;
-                background-color: #131313;
-            }
-            
-            .videocamera-icon {
-                position: relative;
-            }
-            
             .online__control__container {
-                width: 853px;
+                max-width: 1350px;
+                height: 500px;
                 text-align: center;
-                margin-bottom: 148px;
+                margin-top: -50px;
+                background-color: #131313;
+                /* border-style: solid;
+                border-color: red; */
             }
             
-            .online__control__subtitle {
-                color: #fff;
-                margin-bottom: 15px;
+            .online__control__container__sub {
+                color: white;
+                height: 20px;
+                /* border-style: solid;
+                border-color: greenyellow; */
             }
             
-            .videocamera-icon:after {
+            .online__control__camera {
+                height: 150 px;
+                background-color: #131313;
+                /* border-style: solid;
+                border-color: white; */
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                padding: 0;
+            }
+            
+            .online__control__camera__left {
+                margin-right: 15px;
+                /* border-style: solid;
+                border-color: rgb(47, 95, 255); */
+            }
+            
+            .online__control__camera__right {
+                margin-left: 15px;
+                /* border-style: solid;
+                border-color: rgb(147, 95, 255); */
+            }
+            /* .videocamera-icon:after {
                 content: '';
                 width: 32px;
                 height: 1.5px;
@@ -323,4 +335,4 @@
                 top: 15%;
                 position: absolute;
                 left: 40px;
-            }
+            } */
