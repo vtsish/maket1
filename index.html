@@ -105,25 +105,41 @@
                         <img src="images/tire.png" />
                     </li>
                 </ul>
-                <div class="online__control-video">
+                <div class="online__control-video img">
                     <img src="images/one man.jpg" alt="One man">
+                    <!-- <img src="images/Ellipse.svg" alt="Ellipse"> -->
+                    <button class="online__control-video__button">
+                        <!-- <svg width="21" height="26" viewBox="0 0 21 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 13L7.65417e-07 25.1244L1.82536e-06 0.875644L21 13Z" fill="white"/></svg> -->
+                    </button>
+
                 </div>
                 <img src="images/tire.png" alt="Tire">
                 <div class="divider">
-                    <p>At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our
-                        facilities!
+                    <p>At each facility, a camera is installed that broadcasts the progress of work on the <br> clock. At any time, you can go to our website and monitor the progress of work in <br> your apartment. You can watch the live broadcast from one
+                        of our facilities!
                         <br>Leave a request below and you will receive a link to the broadcast.</p>
                 </div>
-                <div class="online__control-video2">
-                    <div class="overlay"></div>
-                    <button class="online__control-video__button">
-                        <img src="images/Ellipse.svg" alt="Ellipse">
-                        <img src="images/Polygon.svg" alt="Polygon">
-                        <!-- <svg width="21" height="26" viewBox="0 0 21 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 13L7.65417e-07 25.1244L1.82536e-06 0.875644L21 13Z" fill="white"/></svg> -->
-                    </button>
-                </div>
+
+                <form id="control_form">
+                    <div class="control-form__group">
+                        <label for="ctrl_name" class="label ctrl__label">Name</label>
+                        <input id="ctrl_name" name="ctrl_name" type="text" placeholder="What is your name:" class="input ctrl__input">
+                    </div>
+                    <div class="control-form__group">
+                        <label for="ctrl_phone" class="label ctrl__label">Phone</label>
+                        <input id="ctrl_phone" name="ctrl_phone" type="text" placeholder="Your phone number:" class="input ctrl__input">
+                    </div>
+                    <input type="submit" value="Submit" class="button ctrl__submit">
+                    <div class="control-form__check">
+                        <input id="ctrl_check" name="ctrl_check" type="checkbox" checked>
+                        <label for="ctrl_check" class="label ctrl__label_check">
+                            I agree to the processing of personal data
+                        </label>
+                    </div>
+                </form>
             </div>
         </section>
+
 
         <!-- <div>
                     
