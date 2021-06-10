@@ -346,8 +346,9 @@
     .divider {
         width: 55px;
         height: 1px;
+        line-height: 2;
         border-radius: 30px;
-        margin: 0 auto 60px;
+        margin: 0 auto 34px;
         font-family: Nunito Sans;
         font-size: 18px;
         text-align: center;
