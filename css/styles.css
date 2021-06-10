@@ -323,17 +323,17 @@
     .online__control-video img {
         position: relative;
         filter: brightness(0.4);
-        left: 250px;
+        left: 260px;
     }
     
     .online__control-video__button {
         position: absolute;
-        background-image: url('../images/Ellipse.svg');
+        background-image: url('../images/Group 8.svg');
         background-position: -30px -25px;
         background-repeat: no-repeat;
         height: 85px;
         width: 85px;
-        left: 380px;
+        left: 370px;
         transform: translate(300%, -300%);
         border: none;
         cursor: pointer;
