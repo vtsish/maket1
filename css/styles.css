@@ -281,7 +281,7 @@
         margin-top: -50px;
         background-color: #131313;
         /* border-style: solid;
-                border-color: red; */
+        border-color: red; */
     }
     
     .online__control__container__sub {
@@ -317,13 +317,15 @@
     .online__control-video {
         align-items: center;
         /* position: relative;*/
-        width: 50%;
+        /* width: 30%; */
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .online__control-video img {
-        position: relative;
+        /* position: relative; */
         filter: brightness(0.4);
-        left: 260px;
+        /* left: 260px; */
     }
     
     .online__control-video__button {
@@ -334,10 +336,17 @@
         height: 85px;
         width: 85px;
         left: 370px;
-        transform: translate(300%, -300%);
+        transform: translate(300%, 200%);
         border: none;
         cursor: pointer;
         border-radius: 50%;
+        z-index: 1;
+        /* display: flex;
+        justify-content: center; */
+    }
+    
+    .online__control-video__button8 {
+        background-image: url('../images/Group 8.svg');
         z-index: 1;
         /* display: flex;
         justify-content: center; */
@@ -354,17 +363,22 @@
         text-align: center;
         display: inline;
     }
-    
-    .control p {
+    /* .control p {
         line-height: 37px;
         width: 681px;
         margin: 34px auto 91px;
-    }
+    } */
     
-    #control_form {
-        padding: 0 24px;
+    .control_form {
+        padding: 100px;
+        width: 800px;
         display: flex;
         flex-wrap: wrap;
+        /* border-style: solid;
+        border-color: rgb(147, 95, 255); */
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
         justify-content: center;
     }
     
@@ -470,6 +484,14 @@
     #question_check:checked+.label:before {
         background-color: #e3b873;
         border-color: #e3b873;
+    }
+    
+    .tor {
+        text-align: center;
+    }
+    
+    .tor__container {
+        margin-bottom: 124px;
     }
     /* .videocamera-icon:after {
                 content: '';
